@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(home_picture.png);
+    background-size: cover;
+
+}
+
+.buttons_ctn {
+    padding-top: 24rem;
+    text-align: center;
+}
+
+.buttons_ctn a {
+    width: 40%;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50px;
+    /* background: linear-gradient(to right, rgb(255, 123, 0),rgb(188, 7, 194)); */
+    background: rgb(0, 81, 128);
+    box-shadow: 0 10px 40px 1px black;
+}
+
+.buttons_ctn a:hover {
+    background: orangered;
+}
+
+.playBtn {
+    padding: 20px 40px;
+}
+
+.infoBtn {
+    padding: 20px 32px;
+}
+
+.footer {
+    padding-top: 8rem;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    
+}
